@@ -2,7 +2,7 @@
 
 ## Queries:
 
-### 1. 
+#### 1. 
 SELECT customers.forname, orders.* FROM customers INNER JOIN orders ON customers.id = orders.customer_id 
 ### 2. 
 SELECT status, SUM(TOTAL) FROM orders GROUP BY status
